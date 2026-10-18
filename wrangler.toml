@@ -1,0 +1,9 @@
+name = "rampex-proxy"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+routes = [
+  { pattern = "checkout.jopelpay.site/*", zone_name = "jopelpay.site" },
+  { pattern = "dashboard.jopelpay.site/*", zone_name = "jopelpay.site" },
+  { pattern = "api.jopelpay.site/*", zone_name = "jopelpay.site" }
+]
